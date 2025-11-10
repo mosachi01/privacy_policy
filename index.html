@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية - Focus Hive</title>
+    <!-- تحميل Tailwind CSS CDN للتنسيق السريع والأنيق -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+        /* تنسيق لضمان أن النص يظهر بشكل جيد في المتصفح */
+        .policy-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="policy-container bg-white shadow-xl rounded-lg p-6 sm:p-10 mt-8">
+
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-blue-800 border-b-4 border-blue-200 pb-3 mb-6">
+            سياسة الخصوصية لتطبيق Focus Hive
+        </h1>
+
+        <p class="text-sm text-gray-500 mb-6">
+            <strong class="text-red-600">تاريخ السريان:</strong> [أدخل تاريخ السريان، مثلاً: 10 نوفمبر 2025]
+        </p>
+
+        <!-- 1. المقدمة -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-r-4 border-blue-500 pr-3">1. المقدمة</h2>
+            <p class="text-gray-700 leading-relaxed">
+                يتم تشغيل تطبيق Focus Hive بواسطة **[أدخل اسمك أو اسم الشركة، مثلاً: MlM brothers]**. نحن ملتزمون بحماية خصوصيتك. توضح سياسة الخصوصية هذه أنواع المعلومات التي نجمعها، وكيف نستخدمها ونحميها، والخيارات المتاحة لك بشأن استخدامنا لمعلوماتك. باستخدامك لتطبيق Focus Hive، فإنك توافق على جمع واستخدام المعلومات وفقاً لهذه السياسة.
+            </p>
+        </section>
+
+        <!-- 2. جمع المعلومات واستخدامها -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-r-4 border-blue-500 pr-3">2. جمع المعلومات واستخدامها</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                يجمع تطبيق Focus Hive نوعين أساسيين من المعلومات لتقديم الخدمة وتحسينها:
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-700 mb-2 mt-4">2.1. البيانات التي يقدمها المستخدم (للتشغيل الأساسي)</h3>
+            <ul class="list-disc list-inside text-gray-600 space-y-2 pr-4">
+                <li>
+                    <strong class="text-blue-600">معلومات المصادقة (Firebase Authentication):</strong> عند التسجيل أو تسجيل الدخول، نستخدم Firebase Authentication لمعالجة بيانات الاعتماد الخاصة بك.
+                    <ul class="list-circle list-inside mt-1 pr-6">
+                        <li>إذا استخدمت البريد الإلكتروني وكلمة المرور، يتم تخزين البيانات بشكل آمن بواسطة Firebase.</li>
+                        <li>إذا استخدمت حساب Google (Google Sign-In)، يتم تخزين معرف المستخدم الخاص بك (User ID) من Google.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong class="text-blue-600">بيانات المهام (Firebase Firestore):</strong> نجمع ونخزن المهام وقوائم المهام والأهداف التي تقوم بإنشائها أو تتبعها داخل التطبيق. تُخزَّن هذه البيانات بشكل آمن في قاعدة بيانات Firebase Firestore وتُستخدم حصرياً لتوفير الخدمة لك.
+                </li>
+                <li>
+                    <strong class="text-blue-600">بيانات الاستخدام الأساسية:</strong> مثل إعدادات التفضيلات، ومعدلات الإكمال، التي تساعدنا على تقديم تقارير عن أدائك.
+                </li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-gray-700 mb-2 mt-4">2.2. بيانات السجل والتحليلات</h3>
+            <p class="text-gray-700 leading-relaxed">
+                في حالة حدوث خطأ في التطبيق، نقوم بجمع بيانات تسمى "بيانات السجل" (عبر Firebase Crashlytics أو أدوات مشابهة). قد تتضمن هذه البيانات معلومات مثل نوع جهازك، إصدار نظام التشغيل، إعدادات التطبيق عند حدوث الخطأ، ووقت وتاريخ استخدامك للتطبيق.
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-700 mb-2 mt-4">2.3. بيانات أخرى</h3>
+            <p class="text-gray-700 leading-relaxed">
+                [اذكر أي بيانات أخرى يجمعها تطبيقك، أو إذا لم يكن يجمع شيئًا آخر، اكتب: "لا يقوم تطبيق Focus Hive بجمع أي بيانات شخصية أخرى غير المذكورة أعلاه".]
+            </p>
+        </section>
+
+        <!-- 3. أمان البيانات -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-r-4 border-blue-500 pr-3">3. أمان البيانات</h2>
+            <p class="text-gray-700 leading-relaxed">
+                إن أمان بياناتك الشخصية أمر مهم بالنسبة لنا. نحن نسعى جاهدين لاستخدام وسائل مقبولة تجارياً لحماية معلوماتك، لكن تذكر أنه لا توجد طريقة نقل عبر الإنترنت أو طريقة تخزين إلكتروني آمنة بنسبة 100%. نحن نعتمد على الإجراءات الأمنية القوية التي توفرها منصة Firebase لحماية البيانات المخزنة.
+            </p>
+        </section>
+
+        <!-- 4. ملفات تعريف الارتباط (الكوكيز) -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-r-4 border-blue-500 pr-3">4. ملفات تعريف الارتباط (الكوكيز)</h2>
+            <p class="text-gray-700 leading-relaxed">
+                لا يستخدم تطبيق Focus Hive ملفات تعريف الارتباط بشكل مباشر. ومع ذلك، قد تستخدم مكتبات الطرف الثالث والمكونات الإضافية (مثل Firebase) ملفات تعريف الارتباط لجمع المعلومات وتحسين خدماتها.
+            </p>
+        </section>
+
+        <!-- 5. تغييرات سياسة الخصوصية -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-r-4 border-blue-500 pr-3">5. تغييرات سياسة الخصوصية</h2>
+            <p class="text-gray-700 leading-relaxed">
+                قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سنقوم بإبلاغك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة على هذه الصفحة. يُنصح بمراجعة سياسة الخصوصية هذه بشكل دوري لأي تغييرات. تسري التغييرات بمجرد نشرها على هذه الصفحة.
+            </p>
+        </section>
+
+        <!-- 6. اتصل بنا -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-r-4 border-blue-500 pr-3">6. اتصل بنا</h2>
+            <p class="text-gray-700 leading-relaxed">
+                إذا كان لديك أي أسئلة أو اقتراحات حول سياسة الخصوصية الخاصة بنا، يرجى الاتصال بنا على:
+            </p>
+            <p class="mt-4 p-4 bg-gray-100 rounded-lg inline-block font-mono text-lg text-blue-800">
+                Email: <a href="mailto:roumiliwalid856@gmail.com" class="hover:underline">[البريد الإلكتروني للدعم]</a>
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>
